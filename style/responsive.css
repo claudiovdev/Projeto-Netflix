@@ -1,0 +1,31 @@
+@media screen and (max-width:980px){
+    .modal-container{
+        top: 77px;
+        left: 250px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    header .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .modal-container{
+        top: 77px;
+        left: 80px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width:50%;
+    }
+
+}
